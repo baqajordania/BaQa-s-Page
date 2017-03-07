@@ -1,0 +1,146 @@
+header {
+	height: 100px;
+	padding-top: 20px;
+}
+header img {
+	width: 200px;
+	height: 65px;
+}
+nav {
+	display: inline-block;
+	margin-left: 100px;
+	font-size: 24px;
+}
+nav li a {
+	color: #3D58A6;
+}
+nav li {
+	display: inline-block;
+	margin-right: 30px;
+}
+nav, img {
+	vertical-align: middle;
+	text-transform: uppercase;
+}
+section img {
+	display: block;
+}
+.article-block article {
+	width: 270px;
+	height: 270px;
+	display: inline-block;
+	vertical-align: middle;
+	background: #e6e6e6;
+	margin-left: 30px;
+}
+.article-block article:nth-of-type(1) {
+	margin-left: 0px;
+}
+article:hover h1 {
+	color: #ca5a32;
+}
+article:hover .news-photo {
+	opacity: 0.6;
+}
+article h1 {
+	font-size: 22px;
+	text-transform: uppercase;
+	line-height: 60px;
+	padding-left: 15px;
+	color: #333333;
+}
+.banner {
+	height: 520px;
+	background-color: #E6E6E6;
+	padding-top: 30px;
+}
+.video-container,.article-container,.featured-container {
+	padding-bottom: 90px;
+}
+
+.section-header {
+	font-size: 24px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.section-header h4 {
+	display: inline-block;
+	text-transform: uppercase;
+	vertical-align: middle;
+}
+.section-header span {
+	display: inline-block;
+	vertical-align: middle;
+}
+.container {
+	width: 1170px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.blue-bg {
+	background: #363e97;
+}
+.grey-bg {
+	background: #bdccd4
+}
+.white-bg {
+	background: white;
+}
+.color-text-white {
+	color: #FFFFFF
+}
+.color-text-blue {
+	color: #363e97;
+}
+.color-text-black {
+	color: black;
+}
+.video {
+	width: 570px;
+	height: 320px;
+	display: inline-block;
+	background: white;
+}
+.last {
+	margin-left: 30px;
+}
+.featured-article {
+	width: 570px;
+	height: 225px;
+	background: #f2f2f2;
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 30px;
+	padding: 15px;
+}
+.featured-article:nth-of-type(2) {
+	margin-right: 0px;
+}
+.featured-article h2 {
+	text-transform: uppercase;
+}
+.hand, .phone {
+	width: 100px;
+	display: inline-block;
+	margin-top: 30px;
+}
+
+.content {
+	width: 350px;
+	display: inline-block;
+	margin-left: 30px;
+	margin-top: 30px;
+}
+footer {
+	background: #999
+}
+.copiryght, .web-author {
+	display: inline-block;
+}
+
+.web-author {
+	float: right;
+}
+.clear {
+	clear: right;
+}
